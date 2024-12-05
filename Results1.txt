@@ -1,0 +1,46 @@
+Hello Rinat
+83513.07 82983.21
+Thu Dec  5 15:11:18 MSK 2024
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:    3412      55    0    0    0     0          0         0     3412      55    0    0    0     0       0          0
+enp0s3: 69151097   75826    0    0    0     0          0     18660  2200473   17772    0    0    0     0       0          0
+virbr0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+1
+Filesystem                         Size  Used Avail Use% Mounted on
+devtmpfs                           9.5G     0  9.5G   0% /dev
+tmpfs                              9.5G     0  9.5G   0% /dev/shm
+tmpfs                              9.5G  9.3M  9.5G   1% /run
+tmpfs                              9.5G     0  9.5G   0% /sys/fs/cgroup
+/dev/mapper/almalinux_centos-root   17G  6.8G   11G  40% /
+/dev/sda1                         1014M  270M  745M  27% /boot
+tmpfs                              1.9G   36K  1.9G   1% /run/user/1000
+/dev/sr0                            52M   52M     0 100% /run/media/centos/VBox_GAs_7.0.22
+0.00 0.00 0.00 5/455 29351
+Netid State  Recv-Q Send-Q                     Local Address:Port  Peer Address:PortProcess
+udp   UNCONN 0      0                                0.0.0.0:60588      0.0.0.0:*          
+udp   UNCONN 0      0                          192.168.122.1:53         0.0.0.0:*          
+udp   UNCONN 0      0                         0.0.0.0%virbr0:67         0.0.0.0:*          
+udp   UNCONN 0      0                                0.0.0.0:111        0.0.0.0:*          
+udp   UNCONN 0      0                              127.0.0.1:323        0.0.0.0:*          
+udp   UNCONN 0      0                                0.0.0.0:5353       0.0.0.0:*          
+udp   UNCONN 0      0                                   [::]:45861         [::]:*          
+udp   UNCONN 0      0                                   [::]:111           [::]:*          
+udp   UNCONN 0      0                                  [::1]:323           [::]:*          
+udp   UNCONN 0      0      [fe80::a00:27ff:fe09:3497]%enp0s3:546           [::]:*          
+udp   UNCONN 0      0                                   [::]:5353          [::]:*          
+tcp   LISTEN 0      128                              0.0.0.0:111        0.0.0.0:*          
+tcp   LISTEN 0      32                         192.168.122.1:53         0.0.0.0:*          
+tcp   LISTEN 0      128                              0.0.0.0:22         0.0.0.0:*          
+tcp   LISTEN 0      128                            127.0.0.1:631        0.0.0.0:*          
+tcp   LISTEN 0      128                                 [::]:111           [::]:*          
+tcp   LISTEN 0      128                                 [::]:22            [::]:*          
+tcp   LISTEN 0      128                                [::1]:631           [::]:*          
+centos   seat0        2024-12-05 14:32 (login screen)
+centos   tty2         2024-12-05 14:32 (tty2)
+centos   pts/1        2024-12-05 15:11 (192.168.0.104)
+ 15:11:18 up 23:11,  3 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+centos   seat0    login-           14:32    0.00s  0.00s  0.00s /usr/libexec/gdm-wayland-session --register-session gnome-session
+centos   tty2     tty2             14:32   23:11m 20.15s  0.71s /usr/bin/gnome-software --gapplication-service
+centos   pts/1    192.168.0.104    15:11    0.00s  0.00s  0.00s w

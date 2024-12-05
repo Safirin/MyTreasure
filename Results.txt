@@ -1,0 +1,30 @@
+Hello Rinat
+Thu Dec  5 12:11:19 PM UTC 2024
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:   10864     132    0    0    0     0          0         0    10864     132    0    0    0     0       0          0
+enp0s3:  934671    5868    0    2    0     0          0      2994   450963    2148    0    0    0     0       0          0
+1
+Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              776M  1.1M  775M   1% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv   12G  2.4G  8.3G  23% /
+tmpfs                              3.8G     0  3.8G   0% /dev/shm
+tmpfs                              5.0M     0  5.0M   0% /run/lock
+/dev/sda2                          2.0G   95M  1.7G   6% /boot
+tmpfs                              776M   12K  776M   1% /run/user/1000
+0.00 0.00 0.00 2/127 4483
+Netid State  Recv-Q Send-Q                     Local Address:Port Peer Address:PortProcess
+udp   UNCONN 0      0                             127.0.0.54:53        0.0.0.0:*          
+udp   UNCONN 0      0                          127.0.0.53%lo:53        0.0.0.0:*          
+udp   UNCONN 0      0                   192.168.0.102%enp0s3:68        0.0.0.0:*          
+udp   UNCONN 0      0      [fe80::a00:27ff:fe2e:52a4]%enp0s3:546          [::]:*          
+tcp   LISTEN 0      4096                          127.0.0.54:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                       127.0.0.53%lo:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                                   *:22              *:*          
+rinat    tty1         2024-12-05 11:22
+rinat    pts/0        2024-12-05 12:11 (192.168.0.104)
+ 12:11:19 up  4:59,  2 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+rinat    tty1     -                11:22   15:19   0.08s  0.06s -bash
+rinat             192.168.0.104    12:11    4:59m  0.00s   ?    sshd: rinat [priv]
+rinat

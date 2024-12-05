@@ -1,0 +1,480 @@
+Hello Rinat
+17631.65 17264.45
+rinat
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:   10304     128    0    0    0     0          0         0    10304     128    0    0    0     0       0          0
+enp0s3:  904391    5679    0    2    0     0          0      2937   417834    2036    0    0    0     0       0          0
+Thu Dec  5 12:05:39 PM UTC 2024
+1
+Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              776M  1.1M  775M   1% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv   12G  2.4G  8.3G  23% /
+tmpfs                              3.8G     0  3.8G   0% /dev/shm
+tmpfs                              5.0M     0  5.0M   0% /run/lock
+/dev/sda2                          2.0G   95M  1.7G   6% /boot
+tmpfs                              776M   12K  776M   1% /run/user/1000
+0.00 0.00 0.00 2/127 4229
+Netid State  Recv-Q Send-Q                     Local Address:Port Peer Address:PortProcess
+udp   UNCONN 0      0                             127.0.0.54:53        0.0.0.0:*          
+udp   UNCONN 0      0                          127.0.0.53%lo:53        0.0.0.0:*          
+udp   UNCONN 0      0                   192.168.0.102%enp0s3:68        0.0.0.0:*          
+udp   UNCONN 0      0      [fe80::a00:27ff:fe2e:52a4]%enp0s3:546          [::]:*          
+tcp   LISTEN 0      4096                          127.0.0.54:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                       127.0.0.53%lo:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                                   *:22              *:*          
+rinat    tty1         2024-12-05 11:22
+rinat    pts/0        2024-12-05 12:05 (192.168.0.104)
+ 12:05:39 up  4:53,  2 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+rinat    tty1     -                11:22    9:39   0.08s  0.06s -bash
+rinat             192.168.0.104    12:05    4:53m  0.00s   ?    sshd: rinat [priv]
+rinat
+Hello Rinat
+17880.68 17507.70
+rinat
+Thu Dec  5 12:09:48 PM UTC 2024
+1
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:   10864     132    0    0    0     0          0         0    10864     132    0    0    0     0       0          0
+enp0s3:  921157    5793    0    2    0     0          0      2978   433558    2094    0    0    0     0       0          0
+Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              776M  1.1M  775M   1% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv   12G  2.4G  8.3G  23% /
+tmpfs                              3.8G     0  3.8G   0% /dev/shm
+tmpfs                              5.0M     0  5.0M   0% /run/lock
+/dev/sda2                          2.0G   95M  1.7G   6% /boot
+tmpfs                              776M   12K  776M   1% /run/user/1000
+0.00 0.00 0.00 2/126 4355
+Netid State  Recv-Q Send-Q                     Local Address:Port Peer Address:PortProcess
+udp   UNCONN 0      0                             127.0.0.54:53        0.0.0.0:*          
+udp   UNCONN 0      0                          127.0.0.53%lo:53        0.0.0.0:*          
+udp   UNCONN 0      0                   192.168.0.102%enp0s3:68        0.0.0.0:*          
+udp   UNCONN 0      0      [fe80::a00:27ff:fe2e:52a4]%enp0s3:546          [::]:*          
+tcp   LISTEN 0      4096                          127.0.0.54:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                       127.0.0.53%lo:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                                   *:22              *:*          
+rinat    tty1         2024-12-05 11:22
+rinat    pts/0        2024-12-05 12:09 (192.168.0.104)
+ 12:09:48 up  4:58,  2 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+rinat    tty1     -                11:22   13:48   0.08s  0.06s -bash
+rinat             192.168.0.104    12:09    4:57m  0.00s   ?    sshd: rinat [priv]
+rinat
+Hello Rinat
+18001.57 17624.91
+rinat
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:   10864     132    0    0    0     0          0         0    10864     132    0    0    0     0       0          0
+enp0s3:  947331    5930    0    2    0     0          0      2998   465867    2198    0    0    0     0       0          0
+Thu Dec  5 12:11:49 PM UTC 2024
+1
+Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              776M  1.1M  775M   1% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv   12G  2.4G  8.3G  23% /
+tmpfs                              3.8G     0  3.8G   0% /dev/shm
+tmpfs                              5.0M     0  5.0M   0% /run/lock
+/dev/sda2                          2.0G   95M  1.7G   6% /boot
+tmpfs                              776M   12K  776M   1% /run/user/1000
+0.00 0.00 0.00 3/127 4594
+Netid State  Recv-Q Send-Q                     Local Address:Port Peer Address:PortProcess
+udp   UNCONN 0      0                             127.0.0.54:53        0.0.0.0:*          
+udp   UNCONN 0      0                          127.0.0.53%lo:53        0.0.0.0:*          
+udp   UNCONN 0      0                   192.168.0.102%enp0s3:68        0.0.0.0:*          
+udp   UNCONN 0      0      [fe80::a00:27ff:fe2e:52a4]%enp0s3:546          [::]:*          
+tcp   LISTEN 0      4096                          127.0.0.54:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                       127.0.0.53%lo:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                                   *:22              *:*          
+rinat    tty1         2024-12-05 11:22
+rinat    pts/0        2024-12-05 12:11 (192.168.0.104)
+ 12:11:49 up  5:00,  2 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+rinat    tty1     -                11:22   15:49   0.08s  0.06s -bash
+rinat             192.168.0.104    12:11    4:59m  0.00s  0.01s sshd: rinat [priv]
+rinat
+Hello Rinat
+28032.93 27460.82
+rinat
+Thu Dec  5 02:59:00 PM UTC 2024
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:   11500     136    0    0    0     0          0         0    11500     136    0    0    0     0       0          0
+enp0s3: 1138506    8353    0    5    0     0          0      4690   517283    2553    0    0    0     0       0          0
+1
+Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              776M  1.1M  775M   1% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv   12G  2.4G  8.3G  23% /
+tmpfs                              3.8G     0  3.8G   0% /dev/shm
+tmpfs                              5.0M     0  5.0M   0% /run/lock
+/dev/sda2                          2.0G   95M  1.7G   6% /boot
+tmpfs                              776M   12K  776M   1% /run/user/1000
+0.00 0.00 0.00 3/126 5019
+Netid State  Recv-Q Send-Q                     Local Address:Port Peer Address:PortProcess
+udp   UNCONN 0      0                             127.0.0.54:53        0.0.0.0:*          
+udp   UNCONN 0      0                          127.0.0.53%lo:53        0.0.0.0:*          
+udp   UNCONN 0      0                   192.168.0.102%enp0s3:68        0.0.0.0:*          
+udp   UNCONN 0      0      [fe80::a00:27ff:fe2e:52a4]%enp0s3:546          [::]:*          
+tcp   LISTEN 0      4096                          127.0.0.54:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                       127.0.0.53%lo:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                                   *:22              *:*          
+rinat    tty1         2024-12-05 11:22
+rinat    pts/0        2024-12-05 14:59 (192.168.0.104)
+ 14:59:00 up  7:47,  2 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+rinat    tty1     -                11:22    2:45m  0.08s  0.06s -bash
+rinat             192.168.0.104    14:59    7:47m  0.00s   ?    sshd: rinat [priv]
+rinat
+Hello Rinat
+28069.60 27496.58
+rinat
+Thu Dec  5 02:59:37 PM UTC 2024
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:   11500     136    0    0    0     0          0         0    11500     136    0    0    0     0       0          0
+enp0s3: 1144848    8384    0    5    0     0          0      4696   523083    2574    0    0    0     0       0          0
+1
+Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              776M  1.1M  775M   1% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv   12G  2.4G  8.3G  23% /
+tmpfs                              3.8G     0  3.8G   0% /dev/shm
+tmpfs                              5.0M     0  5.0M   0% /run/lock
+/dev/sda2                          2.0G   95M  1.7G   6% /boot
+tmpfs                              776M   12K  776M   1% /run/user/1000
+0.00 0.00 0.00 2/127 5086
+Netid State  Recv-Q Send-Q                     Local Address:Port Peer Address:PortProcess
+udp   UNCONN 0      0                             127.0.0.54:53        0.0.0.0:*          
+udp   UNCONN 0      0                          127.0.0.53%lo:53        0.0.0.0:*          
+udp   UNCONN 0      0                   192.168.0.102%enp0s3:68        0.0.0.0:*          
+udp   UNCONN 0      0      [fe80::a00:27ff:fe2e:52a4]%enp0s3:546          [::]:*          
+tcp   LISTEN 0      4096                          127.0.0.54:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                       127.0.0.53%lo:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                                   *:22              *:*          
+rinat    tty1         2024-12-05 11:22
+rinat    pts/0        2024-12-05 14:59 (192.168.0.104)
+ 14:59:37 up  7:47,  2 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+rinat    tty1     -                11:22    2:45m  0.08s  0.06s -bash
+rinat             192.168.0.104    14:59    7:47m  0.00s   ?    sshd: rinat [priv]
+rinat
+Hello Rinat
+28092.05 27518.43
+rinat
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:   11500     136    0    0    0     0          0         0    11500     136    0    0    0     0       0          0
+enp0s3: 1151664    8419    0    6    0     0          0      4700   528793    2594    0    0    0     0       0          0
+Thu Dec  5 02:59:59 PM UTC 2024
+1
+Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              776M  1.1M  775M   1% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv   12G  2.4G  8.3G  23% /
+tmpfs                              3.8G     0  3.8G   0% /dev/shm
+tmpfs                              5.0M     0  5.0M   0% /run/lock
+/dev/sda2                          2.0G   95M  1.7G   6% /boot
+tmpfs                              776M   12K  776M   1% /run/user/1000
+0.00 0.00 0.00 2/127 5152
+Netid State  Recv-Q Send-Q                     Local Address:Port Peer Address:PortProcess
+udp   UNCONN 0      0                             127.0.0.54:53        0.0.0.0:*          
+udp   UNCONN 0      0                          127.0.0.53%lo:53        0.0.0.0:*          
+udp   UNCONN 0      0                   192.168.0.102%enp0s3:68        0.0.0.0:*          
+udp   UNCONN 0      0      [fe80::a00:27ff:fe2e:52a4]%enp0s3:546          [::]:*          
+tcp   LISTEN 0      4096                          127.0.0.54:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                       127.0.0.53%lo:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                                   *:22              *:*          
+rinat    tty1         2024-12-05 11:22
+rinat    pts/0        2024-12-05 14:59 (192.168.0.104)
+ 14:59:59 up  7:48,  2 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+rinat    tty1     -                11:22    2:46m  0.08s  0.06s -bash
+rinat             192.168.0.104    14:59    7:48m  0.00s   ?    sshd: rinat [priv]
+rinat
+Hello Rinat
+28101.48 27527.24
+rinat
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:   11500     136    0    0    0     0          0         0    11500     136    0    0    0     0       0          0
+enp0s3: 1157538    8444    0    6    0     0          0      4701   534654    2615    0    0    0     0       0          0
+Thu Dec  5 03:00:09 PM UTC 2024
+1
+Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              776M  1.1M  775M   1% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv   12G  2.4G  8.3G  23% /
+tmpfs                              3.8G     0  3.8G   0% /dev/shm
+tmpfs                              5.0M     0  5.0M   0% /run/lock
+/dev/sda2                          2.0G   95M  1.7G   6% /boot
+tmpfs                              776M   12K  776M   1% /run/user/1000
+0.00 0.00 0.00 3/127 5229
+Netid State  Recv-Q Send-Q                     Local Address:Port Peer Address:PortProcess
+udp   UNCONN 0      0                             127.0.0.54:53        0.0.0.0:*          
+udp   UNCONN 0      0                          127.0.0.53%lo:53        0.0.0.0:*          
+udp   UNCONN 0      0                   192.168.0.102%enp0s3:68        0.0.0.0:*          
+udp   UNCONN 0      0      [fe80::a00:27ff:fe2e:52a4]%enp0s3:546          [::]:*          
+tcp   LISTEN 0      4096                          127.0.0.54:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                       127.0.0.53%lo:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                                   *:22              *:*          
+rinat    tty1         2024-12-05 11:22
+rinat    pts/0        2024-12-05 15:00 (192.168.0.104)
+ 15:00:09 up  7:48,  2 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+rinat    tty1     -                11:22    2:46m  0.08s  0.06s -bash
+rinat             192.168.0.104    15:00    7:48m  0.00s   ?    sshd: rinat [priv]
+rinat
+Hello Rinat
+28210.09 27633.29
+rinat
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:   11500     136    0    0    0     0          0         0    11500     136    0    0    0     0       0          0
+enp0s3: 1165146    8492    0    6    0     0          0      4722   540454    2636    0    0    0     0       0          0
+Thu Dec  5 03:01:57 PM UTC 2024
+1
+Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              776M  1.1M  775M   1% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv   12G  2.4G  8.3G  23% /
+tmpfs                              3.8G     0  3.8G   0% /dev/shm
+tmpfs                              5.0M     0  5.0M   0% /run/lock
+/dev/sda2                          2.0G   95M  1.7G   6% /boot
+tmpfs                              776M   12K  776M   1% /run/user/1000
+0.00 0.00 0.00 2/128 5305
+Netid State  Recv-Q Send-Q                     Local Address:Port Peer Address:PortProcess
+udp   UNCONN 0      0                             127.0.0.54:53        0.0.0.0:*          
+udp   UNCONN 0      0                          127.0.0.53%lo:53        0.0.0.0:*          
+udp   UNCONN 0      0                   192.168.0.102%enp0s3:68        0.0.0.0:*          
+udp   UNCONN 0      0      [fe80::a00:27ff:fe2e:52a4]%enp0s3:546          [::]:*          
+tcp   LISTEN 0      4096                          127.0.0.54:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                       127.0.0.53%lo:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                                   *:22              *:*          
+rinat    tty1         2024-12-05 11:22
+rinat    pts/0        2024-12-05 15:01 (192.168.0.104)
+ 15:01:57 up  7:50,  2 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+rinat    tty1     -                11:22    2:47m  0.08s  0.06s -bash
+rinat             192.168.0.104    15:01    7:50m  0.00s   ?    sshd: rinat [priv]
+rinat
+Hello Rinat
+55.54
+rinat
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:   11500     136    0    0    0     0          0         0    11500     136    0    0    0     0       0          0
+enp0s3: 1174470    8563    0    6    0     0          0      4762   546646    2660    0    0    0     0       0          0
+Thu Dec  5 03:05:45 PM UTC 2024
+1
+Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              776M  1.1M  775M   1% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv   12G  2.4G  8.3G  23% /
+tmpfs                              3.8G     0  3.8G   0% /dev/shm
+tmpfs                              5.0M     0  5.0M   0% /run/lock
+/dev/sda2                          2.0G   95M  1.7G   6% /boot
+tmpfs                              776M   12K  776M   1% /run/user/1000
+0.00 0.00 0.00 2/126 5386
+Netid State  Recv-Q Send-Q                     Local Address:Port Peer Address:PortProcess
+udp   UNCONN 0      0                             127.0.0.54:53        0.0.0.0:*          
+udp   UNCONN 0      0                          127.0.0.53%lo:53        0.0.0.0:*          
+udp   UNCONN 0      0                   192.168.0.102%enp0s3:68        0.0.0.0:*          
+udp   UNCONN 0      0      [fe80::a00:27ff:fe2e:52a4]%enp0s3:546          [::]:*          
+tcp   LISTEN 0      4096                          127.0.0.54:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                       127.0.0.53%lo:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                                   *:22              *:*          
+rinat    tty1         2024-12-05 11:22
+rinat    pts/0        2024-12-05 15:05 (192.168.0.104)
+ 15:05:45 up  7:53,  2 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+rinat    tty1     -                11:22    2:51m  0.08s  0.06s -bash
+rinat             192.168.0.104    15:05    7:53m  0.00s   ?    sshd: rinat [priv]
+rinat
+Hello Rinat
+28521.72 27937.93
+rinat
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:   11500     136    0    0    0     0          0         0    11500     136    0    0    0     0       0          0
+enp0s3: 1181520    8604    0    6    0     0          0      4775   552507    2681    0    0    0     0       0          0
+Thu Dec  5 03:07:09 PM UTC 2024
+1
+Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              776M  1.1M  775M   1% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv   12G  2.4G  8.3G  23% /
+tmpfs                              3.8G     0  3.8G   0% /dev/shm
+tmpfs                              5.0M     0  5.0M   0% /run/lock
+/dev/sda2                          2.0G   95M  1.7G   6% /boot
+tmpfs                              776M   12K  776M   1% /run/user/1000
+0.00 0.00 0.00 2/127 5462
+Netid State  Recv-Q Send-Q                     Local Address:Port Peer Address:PortProcess
+udp   UNCONN 0      0                             127.0.0.54:53        0.0.0.0:*          
+udp   UNCONN 0      0                          127.0.0.53%lo:53        0.0.0.0:*          
+udp   UNCONN 0      0                   192.168.0.102%enp0s3:68        0.0.0.0:*          
+udp   UNCONN 0      0      [fe80::a00:27ff:fe2e:52a4]%enp0s3:546          [::]:*          
+tcp   LISTEN 0      4096                          127.0.0.54:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                       127.0.0.53%lo:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                                   *:22              *:*          
+rinat    tty1         2024-12-05 11:22
+rinat    pts/0        2024-12-05 15:07 (192.168.0.104)
+ 15:07:09 up  7:55,  2 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+rinat    tty1     -                11:22    2:53m  0.08s  0.06s -bash
+rinat             192.168.0.104    15:07    7:55m  0.00s   ?    sshd: rinat [priv]
+rinat
+Hello Rinat
+28584.51 27998.98
+rinat
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:   11500     136    0    0    0     0          0         0    11500     136    0    0    0     0       0          0
+enp0s3: 1188264    8640    0    6    0     0          0      4788   558524    2704    0    0    0     0       0          0
+Thu Dec  5 03:08:12 PM UTC 2024
+1
+Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              776M  1.1M  775M   1% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv   12G  2.4G  8.3G  23% /
+tmpfs                              3.8G     0  3.8G   0% /dev/shm
+tmpfs                              5.0M     0  5.0M   0% /run/lock
+/dev/sda2                          2.0G   95M  1.7G   6% /boot
+tmpfs                              776M   12K  776M   1% /run/user/1000
+0.00 0.00 0.00 2/127 5537
+Netid State  Recv-Q Send-Q                     Local Address:Port Peer Address:PortProcess
+udp   UNCONN 0      0                             127.0.0.54:53        0.0.0.0:*          
+udp   UNCONN 0      0                          127.0.0.53%lo:53        0.0.0.0:*          
+udp   UNCONN 0      0                   192.168.0.102%enp0s3:68        0.0.0.0:*          
+udp   UNCONN 0      0      [fe80::a00:27ff:fe2e:52a4]%enp0s3:546          [::]:*          
+tcp   LISTEN 0      4096                          127.0.0.54:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                       127.0.0.53%lo:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                                   *:22              *:*          
+rinat    tty1         2024-12-05 11:22
+rinat    pts/0        2024-12-05 15:08 (192.168.0.104)
+ 15:08:12 up  7:56,  2 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+rinat    tty1     -                11:22    2:54m  0.08s  0.06s -bash
+rinat             192.168.0.104    15:08    7:56m  0.00s   ?    sshd: rinat [priv]
+rinat
+Hello Rinat
+28659.96 28072.42
+rinat
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:   11500     136    0    0    0     0          0         0    11500     136    0    0    0     0       0          0
+enp0s3: 1201166    8707    0    6    0     0          0      4800   570956    2750    0    0    0     0       0          0
+Thu Dec  5 03:09:27 PM UTC 2024
+1
+Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              776M  1.1M  775M   1% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv   12G  2.4G  8.3G  23% /
+tmpfs                              3.8G     0  3.8G   0% /dev/shm
+tmpfs                              5.0M     0  5.0M   0% /run/lock
+/dev/sda2                          2.0G   95M  1.7G   6% /boot
+tmpfs                              776M   12K  776M   1% /run/user/1000
+0.00 0.00 0.00 2/127 5661
+Netid State  Recv-Q Send-Q                     Local Address:Port Peer Address:PortProcess
+udp   UNCONN 0      0                             127.0.0.54:53        0.0.0.0:*          
+udp   UNCONN 0      0                          127.0.0.53%lo:53        0.0.0.0:*          
+udp   UNCONN 0      0                   192.168.0.102%enp0s3:68        0.0.0.0:*          
+udp   UNCONN 0      0      [fe80::a00:27ff:fe2e:52a4]%enp0s3:546          [::]:*          
+tcp   LISTEN 0      4096                          127.0.0.54:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                       127.0.0.53%lo:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                                   *:22              *:*          
+rinat    tty1         2024-12-05 11:22
+rinat    pts/0        2024-12-05 15:09 (192.168.0.104)
+ 15:09:27 up  7:57,  2 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+rinat    tty1     -                11:22    2:55m  0.08s  0.06s -bash
+rinat             192.168.0.104    15:09    7:57m  0.00s   ?    sshd: rinat [priv]
+rinat
+Hello Rinat
+rinat
+28739.64 28149.89
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:   11500     136    0    0    0     0          0         0    11500     136    0    0    0     0       0          0
+enp0s3: 1214176    8775    0    6    0     0          0      4813   583629    2798    0    0    0     0       0          0
+Thu Dec  5 03:10:47 PM UTC 2024
+1
+Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              776M  1.1M  775M   1% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv   12G  2.4G  8.3G  23% /
+tmpfs                              3.8G     0  3.8G   0% /dev/shm
+tmpfs                              5.0M     0  5.0M   0% /run/lock
+/dev/sda2                          2.0G   95M  1.7G   6% /boot
+tmpfs                              776M   12K  776M   1% /run/user/1000
+0.00 0.00 0.00 2/126 5789
+Netid State  Recv-Q Send-Q                     Local Address:Port Peer Address:PortProcess
+udp   UNCONN 0      0                             127.0.0.54:53        0.0.0.0:*          
+udp   UNCONN 0      0                          127.0.0.53%lo:53        0.0.0.0:*          
+udp   UNCONN 0      0                   192.168.0.102%enp0s3:68        0.0.0.0:*          
+udp   UNCONN 0      0      [fe80::a00:27ff:fe2e:52a4]%enp0s3:546          [::]:*          
+tcp   LISTEN 0      4096                          127.0.0.54:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                       127.0.0.53%lo:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                                   *:22              *:*          
+rinat    tty1         2024-12-05 11:22
+rinat    pts/0        2024-12-05 15:10 (192.168.0.104)
+ 15:10:47 up  7:58,  2 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+rinat    tty1     -                11:22    2:56m  0.08s  0.06s -bash
+rinat             192.168.0.104    15:10    7:58m  0.00s   ?    sshd: rinat [priv]
+rinat
+Hello Rinat
+28830.08 28237.96
+rinat
+Thu Dec  5 03:12:17 PM UTC 2024
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:   11500     136    0    0    0     0          0         0    11500     136    0    0    0     0       0          0
+enp0s3: 1227264    8844    0    6    0     0          0      4828   596302    2846    0    0    0     0       0          0
+1
+Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              776M  1.1M  775M   1% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv   12G  2.4G  8.3G  23% /
+tmpfs                              3.8G     0  3.8G   0% /dev/shm
+tmpfs                              5.0M     0  5.0M   0% /run/lock
+/dev/sda2                          2.0G   95M  1.7G   6% /boot
+tmpfs                              776M   12K  776M   1% /run/user/1000
+0.00 0.00 0.00 3/125 5914
+Netid State  Recv-Q Send-Q                     Local Address:Port Peer Address:PortProcess
+udp   UNCONN 0      0                             127.0.0.54:53        0.0.0.0:*          
+udp   UNCONN 0      0                          127.0.0.53%lo:53        0.0.0.0:*          
+udp   UNCONN 0      0                   192.168.0.102%enp0s3:68        0.0.0.0:*          
+udp   UNCONN 0      0      [fe80::a00:27ff:fe2e:52a4]%enp0s3:546          [::]:*          
+tcp   LISTEN 0      4096                          127.0.0.54:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                       127.0.0.53%lo:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                                   *:22              *:*          
+rinat    tty1         2024-12-05 11:22
+rinat    pts/0        2024-12-05 15:12 (192.168.0.104)
+ 15:12:17 up  8:00,  2 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+rinat    tty1     -                11:22    2:58m  0.08s  0.06s -bash
+rinat             192.168.0.104    15:12    8:00m  0.00s   ?    sshd: rinat [priv]
+rinat
+Hello Rinat
+rinat
+28864.55 28271.49
+Thu Dec  5 03:12:52 PM UTC 2024
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:   11500     136    0    0    0     0          0         0    11500     136    0    0    0     0       0          0
+enp0s3: 1239440    8901    0    6    0     0          0      4832   608800    2893    0    0    0     0       0          0
+1
+Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              776M  1.1M  775M   1% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv   12G  2.4G  8.3G  23% /
+tmpfs                              3.8G     0  3.8G   0% /dev/shm
+tmpfs                              5.0M     0  5.0M   0% /run/lock
+/dev/sda2                          2.0G   95M  1.7G   6% /boot
+tmpfs                              776M   12K  776M   1% /run/user/1000
+0.00 0.00 0.00 2/126 6030
+Netid State  Recv-Q Send-Q                     Local Address:Port Peer Address:PortProcess
+udp   UNCONN 0      0                             127.0.0.54:53        0.0.0.0:*          
+udp   UNCONN 0      0                          127.0.0.53%lo:53        0.0.0.0:*          
+udp   UNCONN 0      0                   192.168.0.102%enp0s3:68        0.0.0.0:*          
+udp   UNCONN 0      0      [fe80::a00:27ff:fe2e:52a4]%enp0s3:546          [::]:*          
+tcp   LISTEN 0      4096                          127.0.0.54:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                       127.0.0.53%lo:53        0.0.0.0:*          
+tcp   LISTEN 0      4096                                   *:22              *:*          
+rinat    tty1         2024-12-05 11:22
+rinat    pts/0        2024-12-05 15:12 (192.168.0.104)
+ 15:12:52 up  8:01,  2 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+rinat    tty1     -                11:22    2:58m  0.08s  0.06s -bash
+rinat             192.168.0.104    15:12    8:01m  0.00s   ?    sshd: rinat [priv]
+rinat
