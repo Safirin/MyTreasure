@@ -104,7 +104,21 @@
 
 Шаг 4. - Создание сервиса в systemd, для того чтобы он автоматически запуск скрипт при инициализации системы - /etc/systemd/system/testeffectmobile2.sh
 
+[Service]
+ExecStart=/home/rinat/Interview/testeffectmobile2.sh
 
+[Install]
+WantedBy=multi-user.target
+
+
+Итого:
+
+1) Инициализируем сервис /etc/systemd/system/testeffectmobile2.service командой sudo systemctl enable testeffectmobile2.service (для того чтобы при перезапуске системы у нас инициализировался скрипт testeffectmobile2.sh)
+2) Запускам bash script testeffectmobile1.sh в фоновом режиме
+3) Перезапускаем систему и проверем автозапуск скрипт testeffectmobile2.sh
+4) Скрипты отрабатывают корректно
+
+Для отработки скрипта я использовал домен 
 
 
 
