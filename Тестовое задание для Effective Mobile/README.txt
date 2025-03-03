@@ -53,12 +53,12 @@
           date_of_event=$(date) #Time and Date of the process (Время и дата, в момент получения ответа от uri при отработке скрипта)
 
 
-          current_PID=$(ps aux | grep '/bin/bash ./testeffectmobile1.sh' | grep -v grep | awk '{print $2}') #Finding the PID of the loop process
-          echo $current_PID "Current PID" #Observing the PID of the loop process
-          previous_PID=$(tail -1 $PID_for_record) #Previous PID process
+          current_PID=$(ps aux | grep '/bin/bash ./testeffectmobile1.sh' | grep -v grep | awk '{print $2}') #Finding the PID of the loop process (Находим PID циклического процесса)
+          echo $current_PID "Current PID" #Observing the PID of the loop process (Выводим номер PID)
+          previous_PID=$(tail -1 $PID_for_record) #Previous PID process (номер процесса записываем для того чтобы иметь возможность сравнить с номером нового процесса и создать соответсвующую запись в monnitoring.log)
           echo $previous_PID "Previous PID" #Observing the previous PID of the loop process
 
-          #We need to rewrite the PID in case our process was reloaded
+          #We need to rewrite the PID in case our process was reloaded (Сравниваем номер предыдущего процесса и текущего процесса и создаем соответсующую запись в файл)
 
           if [[ "$current_PID" != "$previous_PID" ]]; then
 
@@ -67,7 +67,7 @@
 
           fi
 
-          #If we do not have the active process in place, we do not need to send request to URI
+          #If we do not have the active process in place, we do not need to send request to URI (Скрипт высылает запросы на uri в том случае если удается найти номер процесса PID)
 
           if [ "$current_PID" = "" ]; then
               echo "The Test process was not found"
@@ -78,27 +78,33 @@
 
           fi
 
-          #Depending on the reply from URI, we are making different notes in the log file.
+          #Depending on the reply from URI, we are making different notes in the log file. (В зависимости от ответа, полученного с uri, делаем различные записи в monitoring file)
 
-          #The monitoring Server is not available
+          #The monitoring Server is not available (если uri не существует и приходит ответ "000", в этом случае записываем запись о том что мониторинговый сервер не доступен)
 
 	        if [ "$reply_from_uri" = "000" ]; then
              	echo $reply_from_uri $date_of_event "The monitoring Server is not available">>$monitoring_file
 
-          #The server was unable to locate or access the page or website. This issue originates from the site's end
+          #The server was unable to locate or access the page or website. This issue originates from the site's end (Если у нас нет доступа к uri, делаем соответсвующую запись в monnitoring file)
 
  	        elif echo "$reply_from_uri" | grep -q "4[0-9][0-9]"; then
              	echo $reply_from_uri $date_of_event "The server was unable to locate or access the page or website. This issue originates from the site's end">>$monitoring_file
 
-          #The client submitted a valid request, but the server was unable to fullfill it
+          #The client submitted a valid request, but the server was unable to fullfill it (если у нас возникает ошибка 500, делаем соответсвующую запись)
 
          	elif echo "$reply_from_uri" | grep -q "5[0-9][0-9]"; then
  	            echo $reply_from_uri $date_of_event "The client submitted a valid request, but the server was unable to fullfill it">>$monitoring_file
 
           fi
 
-          sleep 60
+          sleep 60 #(Делаем процесс циклическим для того чтобы отслеживать процесс и его изменения)
 
           done
+
+
+Шаг 4. - Создание сервиса в systemd, для того чтобы он автоматически запуск скрипт при инициализации системы - /etc/systemd/system/testeffectmobile2.sh
+
+
+
 
 
