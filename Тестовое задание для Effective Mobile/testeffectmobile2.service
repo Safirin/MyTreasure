@@ -1,0 +1,5 @@
+[Service]
+ExecStart=/home/rinat/Interview/testeffectmobile2.sh
+
+[Install]
+WantedBy=multi-user.target
